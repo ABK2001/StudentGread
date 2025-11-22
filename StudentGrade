@@ -16,7 +16,7 @@ public class StudentGrade {
    
     public static String getGrade(int mark) {
         if (mark >= 90 && mark <= 100)
-            return "A";
+            return "a";
         else if (mark >= 80 && mark < 90)
             return "B";
         else 
