@@ -26,4 +26,18 @@ public class StudentGrade {
         else 
             return "F";
     }
+
+     // add GPA calculation method here
+    public static double calculateGPA(int mark) {
+        if (mark >= 90 && mark <= 100)
+            return 4.0;
+        else if (mark >= 80 && mark < 90)
+            return 3.0;
+        else if (mark >= 70 && mark < 80)    
+            return 2.0;
+        else if (mark >= 60 && mark < 70)
+            return 1.0;
+        else 
+            return 0.0;
+    }
 }
